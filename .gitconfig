@@ -1,0 +1,17 @@
+[user]
+	name = Andrey Stoyan
+	email = andrey.stoyan.csam@gmail.com
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	discard = checkout --
+	last = log -1 HEAD
+	visual = !gitk
+[init]
+	defaultBranch = main

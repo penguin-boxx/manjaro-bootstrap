@@ -15,6 +15,7 @@ dotfiles = [
 
 HOME = os.environ['HOME']
 THIS = os.path.dirname(os.path.realpath(__file__))
+DATA = os.path.join(THIS, 'data')
 
 def copy_all(src_dir, dst_dir):
     for path in dotfiles:
@@ -29,12 +30,13 @@ def copy_all(src_dir, dst_dir):
 def install():
     print('Installing dotfiles from backup...')
     subprocess.run(['git', 'pull', 'origin', 'main'], cwd=THIS)
-    copy_all(THIS, HOME)
+    copy_all(DATA, HOME)
     print('Dotfiles installation finished')
 
 def backup():
     print('Start backup of dotfiles...')
-    copy_all(HOME, THIS)
+    os.makedirs(DATA, exist_ok=True)
+    copy_all(HOME, DATA)
     subprocess.run(['git', 'status'], cwd=THIS)
     subprocess.run(['git', 'add', '.'], cwd=THIS)
     subprocess.run(['git', 'commit', '-m', f'"Backup {datetime.datetime.now()}"'], cwd=THIS)

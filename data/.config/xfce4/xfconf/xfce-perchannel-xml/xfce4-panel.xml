@@ -139,10 +139,10 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="obsidian.desktop"/>
         <value type="string" value="balena-etcher.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
         <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
         <value type="string" value="code-oss.desktop"/>
         <value type="string" value="org.gnome.baobab.desktop"/>
         <value type="string" value="Zoom.desktop"/>

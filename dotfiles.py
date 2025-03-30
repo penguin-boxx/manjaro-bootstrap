@@ -35,6 +35,7 @@ def install():
 def backup():
     print('Start backup of dotfiles...')
     copy_all(HOME, THIS)
+    subprocess.run(['git', 'status'], cwd=THIS)
     subprocess.run(['git', 'add', '.'], cwd=THIS)
     subprocess.run(['git', 'commit', '-m', f'"Backup {datetime.datetime.now()}"'], cwd=THIS)
     subprocess.run(['git', 'push', 'origin', 'main'], cwd=THIS)

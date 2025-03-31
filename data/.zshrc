@@ -151,7 +151,7 @@ alias nau='nautilus . 2> /dev/null &'
 alias hs='ghci +RTS -M100m -RTS'
 alias shs='stack ghci --ghci-options="ghci +RTS -M100m -RTS"'
 alias term='xfce4-terminal'
-alias gacp="git add . ; git commit -am 'Update'; git push"
+alias gacp="git add . ; git commit -am 'Update'; git push origin main"
 
 alias tonvi='optimus-manager --switch intel'
 alias toint='optimus-manager --switch nvidia'

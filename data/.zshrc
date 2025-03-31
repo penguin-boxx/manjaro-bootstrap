@@ -143,33 +143,14 @@ alias please='sudo'
 alias ls='ls --color=auto'
 alias vi='vim'
 alias up='sudo pacman -Syu'
-alias pacrm='sudo pacman -Rs'
 alias cache='sudo pacman -Sc'
-alias 4th=gforth
-alias py=ipython
-alias py3=python3
-alias ipy=ipython
-alias pyte=pytest
-alias pyco=pycodestyle
-alias juno=jupyter-notebook
-alias gccglut='g++ $1 -o app -lglut -lGLU -lGL'
-alias wd='cd /home/yukio/siking/'
+alias py='ipython'
+alias pyt='pytest'
 alias ge='gedit'
-alias giti='cp ~/Templates/git/gitignore ./.gitignore'
-alias gettex='cp ~/Templates/latex/article/main_article.tex . ; cp ~/Templates/latex/article/preamble_article_ru.tex .'
-alias getbe='cp /home/yukio/Templates/latex/beamer/preamble_beamer_ru.tex . ; cp /home/yukio/Templates/latex/beamer/main_beamer.tex .'
 alias nau='nautilus . 2> /dev/null &'
 alias hs='ghci +RTS -M100m -RTS'
 alias shs='stack ghci --ghci-options="ghci +RTS -M100m -RTS"'
 alias term='xfce4-terminal'
-alias mirors='sudo vim /etc/pacman.d/mirrorlist'
-alias upssh='ssh-add .ssh/git_cpp20years'
-alias doxy='doxygen'
-alias docg='cp ~/Templates/doxygen/.doxy .'
-alias doc='doxygen .doxy'
-alias pyt='pytest'
-alias juno='jupyter-notebook'
-alias jula='jupyter-lab'
 alias gacp="git add . ; git commit -am 'Update'; git push"
 
 alias tonvi='optimus-manager --switch intel'
@@ -177,22 +158,6 @@ alias toint='optimus-manager --switch nvidia'
 alias nvi='nvidia-smi'
 alias startint='optimus-manager --set-startup intel'
 alias startnvi='optimus-manager --set-startup nvidia'
-
-alias getartru='cp ~/Templates/latex/base.tex . ;
-                cp ~/Templates/latex/ru.tex . ;
-                cp ~/Templates/latex/article/art_ru.tex . ;
-                cp ~/Templates/latex/article/preart_ru.tex . ;'
-alias getarten='cp ~/Templates/latex/base.tex . ;
-                cp ~/Templates/latex/article/art_en.tex . ;
-                cp ~/Templates/latex/article/preart_en.tex . ;'
-
-alias getslidesru='cp ~/Templates/latex/base.tex . ;
-                   cp ~/Templates/latex/ru.tex . ;
-                   cp ~/Templates/latex/slides/slides_ru.tex . ;
-                   cp ~/Templates/latex/slides/pslides_ru.tex . ;'
-alias getslidesen='cp ~/Templates/latex/base.tex . ;
-                   cp ~/Templates/latex/slides/slides_en.tex . ;
-                   cp ~/Templates/latex/slides/pslides_en.tex . ;'
 
 # opam configuration
 [[ ! -r /home/yukio/.opam/opam-init/init.zsh ]] || source /home/yukio/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
@@ -219,7 +184,7 @@ if [ -e /home/yukio/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yukio/.nix
 source /usr/share/nvm/init-nvm.sh
 
 
-# cat /etc/environment                               
+# cat /etc/environment
 # PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 JDK_16=/usr/lib/jvm/java-8-openjdk-amd64/

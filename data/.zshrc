@@ -134,12 +134,6 @@ compinit
 # Enable backward search
 bindkey "^R" history-incremental-search-backward
 
-# Enable tap
-tid=14
-xinput set-prop $tid 339 1
-xinput disable $tid
-xinput enable $tid
-
 # alias
 alias please='sudo'
 alias ls='ls --color=auto'

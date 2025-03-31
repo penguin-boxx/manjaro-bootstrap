@@ -25,3 +25,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 wget -O ~/Downloads/jbfont.zip 'https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip'
 unzip ~/Downloads/jbfont.zip -d ~/.local/share/
 rm ~/Downloads/jbfont.zip
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+python "$SCRIPT_DIR/dotfiles.py" install

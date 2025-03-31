@@ -9,7 +9,7 @@ sudo pacman -S \
     git gitk cmake boost gtest doxygen stack ocaml opam rust rust-docs rustup mypy flake8 ipython python-pip autopep8 kotlin maven gradle junit \
     virtualbox docker valgrind postgresql \
     libreoffice xournalpp shotwell krita inkscape openshot vlc blender fbreader evince gimp coolreader obs-studio \
-    texstudio texlive-most texlive-lang texlive-bibtexextra biber
+    texstudio texlive texlive-lang texlive-bibtexextra biber
 
 # change bash to zsh
 chsh -s $(which zsh)

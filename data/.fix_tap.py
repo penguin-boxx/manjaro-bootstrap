@@ -20,7 +20,10 @@ def main():
         for prop in props:
             if 'Tapping Enabled (' in prop:
                 prop_id = find(prop.split(), lambda x: x.startswith('(') and x.endswith(':'))[1:][:-2]
+                print(f'Fixing ({id}, {prop_id})')
                 run('xinput', 'set-prop', id, prop_id)
+                return
+    print('ERROR: Tab fixing failed!')
 
 if __name__ == '__main__':
     main()

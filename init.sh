@@ -1,3 +1,5 @@
+set -e
+
 sudo pacman-mirrors -f3
 sudo pacman -Syyu # update system
 

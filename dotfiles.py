@@ -8,7 +8,6 @@ XFCE = '.config/xfce4/xfconf/xfce-perchannel-xml/'
 
 dotfiles = [
     '.bashrc',
-    '.bash_history',
     '.face',
     '.fix_tap.py',
     '.gitconfig',

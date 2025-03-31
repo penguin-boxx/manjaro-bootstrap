@@ -2,7 +2,7 @@ sudo pacman-mirrors -f3
 sudo pacman -Syyu # update system
 
 sudo pacman -S \
-    wget links lynx cmatrix sl cowsay elinks gparted gnome-system-monitor nautilus htop mc tree gnome-calculator gnome-search-tool gedit xf86-input-wacom　linux-headers cheese gcolor3 screenfetch keepassxc \
+    wget links lynx cmatrix sl cowsay elinks gparted gnome-system-monitor nautilus htop mc tree gnome-calculator gnome-search-tool gedit xf86-input-wacom　linux-headers xinput cheese gcolor3 screenfetch keepassxc \
     zsh zsh-autosuggestions zsh-completions zsh-doc zsh-history-substring-search zsh-lovers zsh-syntax-highlighting zshdb \
     firefox chromium discord telegram-desktop zoom qbittorrent \
     code code-marketplace dbeaver vim \

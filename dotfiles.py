@@ -4,6 +4,8 @@ import shutil
 import subprocess
 import datetime
 
+XFCE = '.config/xfce4/xfconf/xfce-perchannel-xml/'
+
 dotfiles = [
     '.bashrc',
     '.bash_history',
@@ -11,7 +13,8 @@ dotfiles = [
     '.fix_tap.py',
     '.gitconfig',
     '.zshrc',
-    '.config/xfce4/xfconf/xfce-perchannel-xml/',
+    os.path.join(XFCE, 'xfce4-keyboard-shortcuts.xml'),
+    os.path.join(XFCE, 'xfce4-terminal.xml'),
 ]
 
 HOME = os.environ['HOME']
@@ -24,6 +27,7 @@ def copy_all(src_dir, dst_dir):
         dst = os.path.join(dst_dir, path)
         print(f'Copying {src} to {dst}')
         if os.path.isfile(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
         else:
             shutil.copytree(src, dst, dirs_exist_ok=True)

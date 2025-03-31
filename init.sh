@@ -6,7 +6,7 @@ sudo pacman -S \
     htop mc tree wget links lynx cmatrix sl cowsay elinks gparted gnome-system-monitor nautilus gnome-calculator gedit cheese gcolor3 screenfetch keepassxc \
     zsh zsh-autosuggestions zsh-completions zsh-doc zsh-history-substring-search zsh-lovers zsh-syntax-highlighting zshdb \
     firefox chromium discord telegram-desktop qbittorrent \
-    code dbeaver vim \
+    code dbeaver vim intellij-idea-community-edition \
     git cmake boost gtest doxygen stack ocaml opam rust rustup mypy flake8 ipython python-pip autopep8 kotlin maven gradle junit \
     virtualbox docker valgrind postgresql \
     libreoffice xournalpp shotwell krita inkscape openshot vlc blender fbreader evince gimp coolreader obs-studio \

@@ -24,3 +24,4 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # install JetBrains mono font
 wget -O ~/Downloads/jbfont.zip 'https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip'
 unzip ~/Downloads/jbfont.zip -d ~/.local/share/
+rm ~/Downloads/jbfont.zip

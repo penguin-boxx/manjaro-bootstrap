@@ -27,4 +27,5 @@ unzip ~/Downloads/jbfont.zip -d ~/.local/share/
 rm ~/Downloads/jbfont.zip
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+python "$SCRIPT_DIR/dotfiles.py" local-backup
 python "$SCRIPT_DIR/dotfiles.py" install

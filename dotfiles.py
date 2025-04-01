@@ -14,9 +14,16 @@ dotfiles = [
     '.zshrc',
     os.path.join(XFCE, 'xfce4-keyboard-shortcuts.xml'),
     os.path.join(XFCE, 'xfce4-terminal.xml'),
+    os.path.join(XFCE, 'keyboard-layout.xml'),     # experimental
+    os.path.join(XFCE, 'xfce4-panel.xml'),         # experimental
+    os.path.join(XFCE, 'xfce4-power-manager.xml'), # experimental
+    os.path.join(XFCE, 'xfce4-screensaver.xml'),   # experimental
+    os.path.join(XFCE, 'xfwm4.xml'),               # experimental
+    os.path.join(XFCE, 'xfce4-session.xml'),       # experimental
 ]
 
 HOME = os.environ['HOME']
+PREV = os.path.join(HOME, '.dotfiles_backup')
 THIS = os.path.dirname(os.path.realpath(__file__))
 DATA = os.path.join(THIS, 'data')
 
@@ -47,12 +54,19 @@ def backup():
     subprocess.run(['git', 'push', 'origin', 'main'], cwd=THIS)
     print('Backup of dotfiles finished')
 
+def backupLocally():
+    print('Start backup previous dotfiles...')
+    copy_all(HOME, PREV)
+    print('End of previous dotfiles backup')
+
 def main():
     args = sys.argv
     if 'install' in args:
         install()
     elif 'backup' in args:
         backup()
+    elif 'local-backup' in args:
+        backupLocally()
     else:
         print('Unknown command')
 

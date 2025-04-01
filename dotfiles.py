@@ -59,6 +59,11 @@ def backupLocally():
     copy_all(HOME, PREV)
     print('End of previous dotfiles backup')
 
+def installLocal():
+    print('Installing dotfiles from local backup...')
+    copy_all(PREV, HOME)
+    print('Dotfiles installation finished')
+
 def main():
     args = sys.argv
     if 'install' in args:
@@ -67,6 +72,8 @@ def main():
         backup()
     elif 'local-backup' in args:
         backupLocally()
+    elif 'install-local' in args:
+        installLocal()
     else:
         print('Unknown command')
 

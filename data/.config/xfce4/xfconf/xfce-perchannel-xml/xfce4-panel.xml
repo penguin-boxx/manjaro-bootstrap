@@ -52,6 +52,8 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="zoom"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="toolbox"/>
         <value type="string" value="TelegramDesktop"/>
         <value type="string" value="nekoray"/>
@@ -67,7 +69,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox"/>
+      <property name="known-players" type="string" value="firefox;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
@@ -82,9 +84,10 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="chromium.desktop"/>
         <value type="string" value="jetbrains-idea-ce-dfdaf811-07a3-4530-bbcb-b886ca555fa3.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
         <value type="string" value="org.gnome.SystemMonitor.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="nekoray.desktop"/>

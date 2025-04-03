@@ -32,11 +32,14 @@ def copy_all(src_dir, dst_dir):
         src = os.path.join(src_dir, path)
         dst = os.path.join(dst_dir, path)
         print(f'Copying {src} to {dst}')
-        if os.path.isfile(src):
-            os.makedirs(os.path.dirname(dst), exist_ok=True)
-            shutil.copy2(src, dst)
-        else:
-            shutil.copytree(src, dst, dirs_exist_ok=True)
+        try:
+            if os.path.isfile(src):
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                shutil.copy2(src, dst)
+            else:
+                shutil.copytree(src, dst, dirs_exist_ok=True)
+        except FileNotFoundError as e:
+            print(e)
 
 def install():
     print('Installing dotfiles from backup...')

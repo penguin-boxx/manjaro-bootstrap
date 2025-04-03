@@ -14,12 +14,12 @@ dotfiles = [
     '.zshrc',
     os.path.join(XFCE, 'xfce4-keyboard-shortcuts.xml'),
     os.path.join(XFCE, 'xfce4-terminal.xml'),
-    os.path.join(XFCE, 'keyboard-layout.xml'),     # experimental
-    os.path.join(XFCE, 'xfce4-panel.xml'),         # experimental
-    os.path.join(XFCE, 'xfce4-power-manager.xml'), # experimental
-    os.path.join(XFCE, 'xfce4-screensaver.xml'),   # experimental
-    os.path.join(XFCE, 'xfwm4.xml'),               # experimental
-    os.path.join(XFCE, 'xfce4-session.xml'),       # experimental
+    os.path.join(XFCE, 'keyboard-layout.xml'),
+    os.path.join(XFCE, 'xfce4-panel.xml'),
+    os.path.join(XFCE, 'xfce4-power-manager.xml'),
+    os.path.join(XFCE, 'xfce4-screensaver.xml'),
+    os.path.join(XFCE, 'xfwm4.xml'),
+    os.path.join(XFCE, 'xfce4-session.xml'),
 ]
 
 HOME = os.environ['HOME']

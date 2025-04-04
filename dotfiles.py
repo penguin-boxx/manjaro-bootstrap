@@ -21,7 +21,6 @@ dotfiles = [
     os.path.join(XFCE, 'xfce4-power-manager.xml'),
     os.path.join(XFCE, 'xfce4-screensaver.xml'),
     os.path.join(XFCE, 'xfwm4.xml'),
-    os.path.join(XFCE, 'xfce4-session.xml'),
 ]
 
 HOME = os.environ['HOME']
@@ -63,6 +62,8 @@ def backup():
 def backupLocally():
     print('Start backup previous dotfiles...')
     copy_all(HOME, PREV)
+    with open(os.path.join(PREV, '.timestamp.txt'), 'w') as file:
+        file.write(str(datetime.datetime.now()))
     print('End of previous dotfiles backup')
 
 def installLocal():
@@ -92,8 +93,7 @@ def main():
         backupLocally()
     elif 'install-local' in args:
         installLocal()
-        installVsCodeExtensions()
     else:
-        print('Unknown command')
+        print('Unknown command, use "install" or "backup" or "local-backup" or "install-local"')
 
 main()

@@ -14,5 +14,7 @@
     "editor.fontLigatures": true,
     "[haskell]": {"editor.tabSize": 2},
     "editor.tabSize": 4,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "terminal.integrated.scrollback": 100000,
+    "files.trimTrailingWhitespace": true,
 }

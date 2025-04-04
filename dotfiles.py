@@ -91,7 +91,6 @@ def main():
         backupLocally()
     elif 'install-local' in args:
         installLocal()
-        installVsCodeExtensions()
     else:
         print('Unknown command')
 

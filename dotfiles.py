@@ -44,7 +44,7 @@ def copy_all(src_dir, dst_dir):
 
 def install():
     print('Installing dotfiles from backup...')
-    if subprocess.run(['git', 'pull', 'origin', 'main', '--no-ff'], cwd=THIS).returncode != 0:
+    if subprocess.run(['git', 'pull', 'origin', 'main', '--no-ff', '--no-edit'], cwd=THIS).returncode != 0:
         raise Exception("Git pull failed")
     copy_all(DATA, HOME)
     print('Dotfiles installation finished')
@@ -62,7 +62,7 @@ def backup():
 def backupLocally():
     print('Start backup previous dotfiles...')
     copy_all(HOME, PREV)
-    with open(os.path.join(PREV, '.timestamp.txt'), 'w') as file:
+    with open(os.path.join(PREV, 'timestamp.txt'), 'w') as file:
         file.write(str(datetime.datetime.now()))
     print('End of previous dotfiles backup')
 

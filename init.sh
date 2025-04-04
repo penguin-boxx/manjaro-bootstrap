@@ -7,6 +7,10 @@ sudo sh -c 'echo "/swapfile none swap defaults 0 0" >> /etc/fstab'
 sudo pacman-mirrors -f3
 sudo pacman -Syyu # update system
 
+# Enable AUR
+# https://forum.manjaro.org/t/enable-aur-using-command-line/79107
+sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf
+
 sudo pacman -S \
     xf86-input-wacom linux-headers-meta xorg-xinput \
     htop mc tree wget links lynx cmatrix sl cowsay elinks gparted gnome-system-monitor baobab nautilus gnome-calculator gedit cheese gcolor3 screenfetch keepassxc \
@@ -18,6 +22,8 @@ sudo pacman -S \
     libreoffice xournalpp shotwell krita inkscape openshot vlc blender fbreader evince gimp coolreader obs-studio \
     texstudio texlive texlive-lang texlive-bibtexextra biber \
     steam
+
+pamac install zoom code-marketplace nekoray-bin koka-bin swift-bin etcher-bin python-pympress ghcup-hs-bin
 
 # change bash to zsh
 chsh -s $(which zsh)
@@ -33,3 +39,5 @@ rm ~/Downloads/jbfont.zip
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 python "$SCRIPT_DIR/dotfiles.py" local-backup
 python "$SCRIPT_DIR/dotfiles.py" install
+
+echo 'Now reboot!'

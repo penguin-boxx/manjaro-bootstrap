@@ -1,5 +1,9 @@
 set -e
 
+sudo mkswap -U clear --size 20G --file /swapfile
+sudo swapon /swapfile
+sudo sh -c 'echo "/swapfile none swap defaults 0 0" >> /etc/fstab'
+
 sudo pacman-mirrors -f3
 sudo pacman -Syyu # update system
 

@@ -45,7 +45,8 @@ def copy_all(src_dir, dst_dir):
 
 def install():
     print('Installing dotfiles from backup...')
-    subprocess.run(['git', 'pull', 'origin', 'main'], cwd=THIS)
+    if subprocess.run(['git', 'pull', 'origin', 'main', '--no-ff'], cwd=THIS).returncode != 0:
+        raise Exception("Git pull failed")
     copy_all(DATA, HOME)
     print('Dotfiles installation finished')
 

@@ -1,8 +1,16 @@
+eamodio.gitlens
 haskell.haskell
 hoovercj.haskell-linter
 justusadam.language-haskell
+koka.language-koka
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+ms-vscode.makefile-tools
+scala-lang.scala
 tomoki1207.pdf
 yzhang.markdown-all-in-one

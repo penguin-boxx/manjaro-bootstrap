@@ -1,0 +1,8 @@
+haskell.haskell
+hoovercj.haskell-linter
+justusadam.language-haskell
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+tomoki1207.pdf
+yzhang.markdown-all-in-one

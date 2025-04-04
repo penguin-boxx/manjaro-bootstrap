@@ -12,6 +12,8 @@ dotfiles = [
     '.fix_tap.py',
     '.gitconfig',
     '.zshrc',
+    '.config/Code - OSS/User/settings.json',
+    '.code_extensions.txt',
     os.path.join(XFCE, 'xfce4-keyboard-shortcuts.xml'),
     os.path.join(XFCE, 'xfce4-terminal.xml'),
     os.path.join(XFCE, 'keyboard-layout.xml'),
@@ -67,16 +69,29 @@ def installLocal():
     copy_all(PREV, HOME)
     print('Dotfiles installation finished')
 
+# https://superuser.com/questions/1080682/how-do-i-back-up-my-vs-code-settings-and-list-of-installed-extensions
+def extractVsCodeExtensions():
+    with open(os.path.join(HOME, '.code_extensions.txt'), 'w') as file:
+        subprocess.run(['code', '--list-extensions'], stdout=file)
+
+def installVsCodeExtensions():
+    with open(os.path.join(HOME, '.code_extensions.txt'), 'r') as file:
+        subprocess.run(['xargs', '-n', '1', 'code', '--install-extension'], stdin=file)
+
 def main():
     args = sys.argv
     if 'install' in args:
         install()
+        installVsCodeExtensions()
     elif 'backup' in args:
+        extractVsCodeExtensions()
         backup()
     elif 'local-backup' in args:
+        extractVsCodeExtensions()
         backupLocally()
     elif 'install-local' in args:
         installLocal()
+        installVsCodeExtensions()
     else:
         print('Unknown command')
 

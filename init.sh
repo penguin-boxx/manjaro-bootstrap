@@ -17,7 +17,7 @@ sudo pacman -S \
     zsh zsh-autosuggestions zsh-completions zsh-doc zsh-history-substring-search zsh-lovers zsh-syntax-highlighting zshdb \
     firefox chromium discord telegram-desktop qbittorrent \
     code obsidian vim dbeaver \
-    git git-lfs cmake boost gtest doxygen stack hlint ocaml opam rust rustup mypy flake8 ipython python-pip autopep8 kotlin maven gradle junit sbt npm nvm \
+    git git-lfs cmake boost gtest doxygen stack hlint ocaml opam agda idris rust rustup mypy flake8 ipython python-pip autopep8 kotlin maven gradle junit sbt npm nvm \
     virtualbox docker valgrind postgresql \
     libreoffice xournalpp shotwell krita inkscape openshot vlc blender fbreader evince gimp coolreader obs-studio \
     texstudio texlive texlive-lang texlive-bibtexextra biber \

@@ -84,11 +84,11 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="jetbrains-idea-ce-dfdaf811-07a3-4530-bbcb-b886ca555fa3.desktop"/>
         <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="jetbrains-idea-ce-dfdaf811-07a3-4530-bbcb-b886ca555fa3.desktop"/>
+        <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="nekoray.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
-        <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="chromium.desktop"/>
         <value type="string" value="org.gnome.SystemMonitor.desktop"/>
         <value type="string" value="org.xfce.mousepad.desktop"/>

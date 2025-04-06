@@ -1,3 +1,4 @@
+banacorn.agda-mode
 eamodio.gitlens
 haskell.haskell
 hoovercj.haskell-linter
@@ -14,3 +15,4 @@ ms-vscode.makefile-tools
 scala-lang.scala
 tomoki1207.pdf
 yzhang.markdown-all-in-one
+zjhmale.idris

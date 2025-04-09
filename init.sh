@@ -1,5 +1,7 @@
 set -e
 
+# Setup swap
+# https://wiki.archlinux.org/title/Swap
 sudo mkswap -U clear --size 20G --file /swapfile
 sudo swapon /swapfile
 sudo sh -c 'echo "/swapfile none swap defaults 0 0" >> /etc/fstab'

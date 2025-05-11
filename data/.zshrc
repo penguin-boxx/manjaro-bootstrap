@@ -140,7 +140,7 @@ bindkey "^R" history-incremental-search-backward
 alias please='sudo'
 alias ls='ls --color=auto'
 alias vi='vim'
-alias up='sudo pacman -Syu'
+alias up='python manjaro-bootstrap/dotfiles.py backup && sudo pacman -Syu'
 alias cache='sudo pacman -Sc'
 alias py='ipython'
 alias pyt='pytest'

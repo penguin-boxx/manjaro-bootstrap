@@ -76,7 +76,7 @@
     </property>
     <property name="plugin-8" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
-      <property name="menu-width" type="int" value="400"/>
+      <property name="menu-width" type="int" value="364"/>
       <property name="menu-height" type="int" value="519"/>
       <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
@@ -87,16 +87,16 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
-        <value type="string" value="org.manjaro.pamac.manager.desktop"/>
+        <value type="string" value="org.gnome.Cheese.desktop"/>
+        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="chromium.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="nekoray.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
         <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="chromium.desktop"/>
-        <value type="string" value="thunar-volman-settings.desktop"/>
-        <value type="string" value="org.qt-project.qtcreator.desktop"/>
+        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
+        <value type="string" value="nl.hjdskes.gcolor3.desktop"/>
         <value type="string" value="com.github.xournalpp.xournalpp.desktop"/>
+        <value type="string" value="org.manjaro.pamac.manager.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

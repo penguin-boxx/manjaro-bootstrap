@@ -3,6 +3,7 @@ haskell.haskell
 hoovercj.haskell-linter
 justusadam.language-haskell
 koka.language-koka
+maximedenes.vscoq
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance

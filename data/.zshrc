@@ -158,7 +158,7 @@ alias startint='optimus-manager --set-startup intel'
 alias startnvi='optimus-manager --set-startup nvidia'
 
 # opam configuration
-[[ ! -r /home/yukio/.opam/opam-init/init.zsh ]] || source /home/yukio/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+[[ ! -r ~/.opam/opam-init/init.zsh ]] || source ~/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
 # Dirstack
 autoload -Uz add-zsh-hook

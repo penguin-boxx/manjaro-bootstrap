@@ -33,6 +33,14 @@ chsh -s $(which zsh)
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# install coq proof assistent
+opam init
+opam repo add coq-released https://coq.inria.fr/opam/released
+opam remote add coq-weakmemory-local -k git https://github.com/weakmemory/local-coq-opam-archive
+opam install coq
+opam install coq-hahn
+opam install vscoq-language-server
+
 # install JetBrains mono font
 wget -O ~/Downloads/jbfont.zip 'https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip'
 unzip ~/Downloads/jbfont.zip -d ~/.local/share/

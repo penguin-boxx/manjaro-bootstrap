@@ -54,6 +54,8 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="qBittorrent"/>
         <value type="string" value="jetbrains-toolbox"/>
         <value type="string" value="zoom"/>
         <value type="string" value="vlc"/>
@@ -87,16 +89,16 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
-        <value type="string" value="nekoray.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="nekoray.desktop"/>
+        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
+        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
+        <value type="string" value="steam.desktop"/>
         <value type="string" value="org.gnome.Cheese.desktop"/>
         <value type="string" value="org.freedesktop.Piper.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
         <value type="string" value="xfce4-run.desktop"/>
-        <value type="string" value="chromium.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

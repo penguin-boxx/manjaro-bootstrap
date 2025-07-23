@@ -17,5 +17,5 @@
     "terminal.integrated.scrollback": 100000,
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "Default Light Modern",
-    "redhat.telemetry.enabled": true,
+    "redhat.telemetry.enabled": true
 }

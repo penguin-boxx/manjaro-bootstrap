@@ -74,7 +74,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox;vlc"/>
+      <property name="known-players" type="string" value="firefox;io.elementary.videos;org.kde.haruna;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
@@ -89,16 +89,16 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="chromium.desktop"/>
         <value type="string" value="nekoray.desktop"/>
-        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
         <value type="string" value="obsidian.desktop"/>
-        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
+        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
         <value type="string" value="steam.desktop"/>
-        <value type="string" value="org.gnome.Cheese.desktop"/>
-        <value type="string" value="org.freedesktop.Piper.desktop"/>
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
-        <value type="string" value="xfce4-run.desktop"/>
+        <value type="string" value="org.gnome.Cheese.desktop"/>
+        <value type="string" value="Zoom.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>
@@ -185,7 +185,7 @@
     <property name="plugin-13" type="string" value="xfce4-notes-plugin"/>
     <property name="notes" type="empty">
       <property name="global" type="empty">
-        <property name="version" type="string" value="1.11.2"/>
+        <property name="version" type="string" value="1.12.0"/>
       </property>
     </property>
     <property name="plugin-14" type="string" value="screenshooter"/>

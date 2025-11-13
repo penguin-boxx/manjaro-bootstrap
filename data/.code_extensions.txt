@@ -1,3 +1,4 @@
+brian-njogu.gitlantis
 danielsanmedium.dscodegpt
 eamodio.gitlens
 github.copilot
@@ -21,10 +22,12 @@ scala-lang.scala
 tomoki1207.pdf
 visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
+vscjava.migrate-java-to-azure
 vscjava.vscode-gradle
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
+vscjava.vscode-java-upgrade
 vscjava.vscode-maven
 yzhang.markdown-all-in-one

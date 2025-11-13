@@ -1,6 +1,5 @@
 {
     "workbench.statusBar.visible": false,
-    "window.customTitleBarVisibility": "never",
     "haskell.manageHLS": "GHCup",
     "window.titleBarStyle": "native",
     "workbench.secondarySideBar.showLabels": false,
@@ -12,11 +11,14 @@
     "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
     "editor.fontLigatures": true,
     "[haskell]": {"editor.tabSize": 2},
+    "[coq]": {"editor.tabSize": 2},
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "terminal.integrated.scrollback": 100000,
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "Default Light Modern",
     "redhat.telemetry.enabled": true,
-    "editor.minimap.showSlider": "always"
+    "editor.minimap.showSlider": "always",
+    "window.customTitleBarVisibility": "never",
+    "vscoq.path": "~/.opam/default/bin/vscoqtop"
 }

@@ -20,5 +20,6 @@
     "redhat.telemetry.enabled": true,
     "editor.minimap.showSlider": "always",
     "window.customTitleBarVisibility": "never",
-    "vscoq.path": "~/.opam/default/bin/vscoqtop"
+    "vscoq.path": "~/.opam/default/bin/vscoqtop",
+    "http.proxyAuthorization": null
 }

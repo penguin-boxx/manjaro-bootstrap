@@ -32,7 +32,9 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
         <value type="string" value="pnmixer"/>
@@ -77,7 +79,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chromium;firefox;io.elementary.videos;org.kde.haruna;vlc"/>
+      <property name="known-players" type="string" value="Chromium;firefox;io.elementary.videos;org.kde.haruna;org.telegram.desktop;vlc"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
@@ -92,16 +94,16 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="nekoray.desktop"/>
-        <value type="string" value="steam.desktop"/>
-        <value type="string" value="redshift-gtk.desktop"/>
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="Zoom.desktop"/>
         <value type="string" value="obsidian.desktop"/>
-        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
-        <value type="string" value="chromium.desktop"/>
-        <value type="string" value="firefox.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
-        <value type="string" value="yandex-browser.desktop"/>
+        <value type="string" value="steam.desktop"/>
+        <value type="string" value="org.manjaro.pamac.manager.desktop"/>
+        <value type="string" value="nekoray.desktop"/>
+        <value type="string" value="anki.desktop"/>
+        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
+        <value type="string" value="org.gnome.Cheese.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

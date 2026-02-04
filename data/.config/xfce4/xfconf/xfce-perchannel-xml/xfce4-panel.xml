@@ -94,8 +94,8 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="discord.desktop"/>
         <value type="string" value="Zoom.desktop"/>
+        <value type="string" value="discord.desktop"/>
         <value type="string" value="obsidian.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="steam.desktop"/>

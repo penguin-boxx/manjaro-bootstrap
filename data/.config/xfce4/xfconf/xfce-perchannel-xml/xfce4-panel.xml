@@ -97,13 +97,13 @@
         <value type="string" value="discord.desktop"/>
         <value type="string" value="redshift-gtk.desktop"/>
         <value type="string" value="obsidian.desktop"/>
-        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
         <value type="string" value="nekoray.desktop"/>
+        <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
+        <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="yandex-browser.desktop"/>
         <value type="string" value="org.gnome.Shotwell.desktop"/>
         <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
         <value type="string" value="steam.desktop"/>
-        <value type="string" value="Zoom.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

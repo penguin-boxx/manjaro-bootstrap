@@ -21,5 +21,6 @@
     "editor.minimap.showSlider": "always",
     "window.customTitleBarVisibility": "never",
     "vscoq.path": "~/.opam/default/bin/vscoqtop",
-    "http.proxyAuthorization": null
+    "http.proxyAuthorization": null,
+    "editor.minimap.enabled": false
 }

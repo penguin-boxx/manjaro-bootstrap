@@ -23,6 +23,11 @@ dotfiles = [
     os.path.join(XFCE, 'xfce4-power-manager.xml'),
     os.path.join(XFCE, 'xfce4-screensaver.xml'),
     os.path.join(XFCE, 'xfwm4.xml'),
+    '.config/environment.d/fcitx5.conf',
+    '.xprofile',
+    '.config/fcitx5/config',
+    '.config/fcitx5/profile',
+    '.config/fcitx5/conf/xcb.conf',
 ]
 
 HOME = os.environ['HOME']

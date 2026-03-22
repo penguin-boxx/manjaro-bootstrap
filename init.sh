@@ -48,13 +48,10 @@ rm ~/Downloads/jbfont.zip
 
 # install japaneese input
 sudo pacman -S fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-im
-mkdir -p ~/.config/environment.d
-echo "GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS=@im=fcitx" > ~/.config/environment.d/fcitx5.conf
 mkdir -p ~/.config/autostart
 cp /etc/xdg/autostart/org.fcitx.Fcitx5.desktop ~/.config/autostart/
-fcitx5-configtool # add mosc input
+setxkbmap -layout us -option # make hotkeys work
+fcitx5-configtool # add mozc input
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 python "$SCRIPT_DIR/dotfiles.py" local-backup

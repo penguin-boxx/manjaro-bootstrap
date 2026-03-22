@@ -6,6 +6,7 @@ haskell.haskell
 hoovercj.haskell-linter
 justusadam.language-haskell
 koka.language-koka
+mathematic.vscode-latex
 maximedenes.vscoq
 ms-python.debugpy
 ms-python.python

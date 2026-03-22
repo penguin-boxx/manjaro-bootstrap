@@ -1,38 +1,24 @@
 [Groups/0]
 # Group Name
-Name="Group 2"
-# Layout
-Default Layout=ru-srp
-# Default Input Method
-DefaultIM=keyboard-ru-srp
-
-[Groups/0/Items/0]
-# Name
-Name=keyboard-ru-srp
-# Layout
-Layout=
-
-[Groups/1]
-# Group Name
 Name="Group 1"
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=mozc
+DefaultIM=keyboard-ru
 
-[Groups/1/Items/0]
+[Groups/0/Items/0]
 # Name
 Name=keyboard-us
 # Layout
 Layout=
 
-[Groups/1/Items/1]
+[Groups/0/Items/1]
 # Name
 Name=keyboard-ru
 # Layout
 Layout=
 
-[Groups/1/Items/2]
+[Groups/0/Items/2]
 # Name
 Name=mozc
 # Layout
@@ -40,5 +26,4 @@ Layout=
 
 [GroupOrder]
 0="Group 1"
-1="Group 2"
 

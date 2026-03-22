@@ -25,7 +25,7 @@ sudo pacman -S \
     texstudio texlive texlive-lang texlive-bibtexextra biber \
     steam
 
-pamac install zoom code-marketplace nekoray-bin koka-bin swift-bin etcher-bin python-pympress ghcup-hs-bin
+pamac install zoom code-marketplace nekoray-bin koka-bin swift-bin etcher-bin python-pympress ghcup-hs-bin normcap
 
 # change bash to zsh
 chsh -s $(which zsh)
@@ -45,6 +45,16 @@ opam install vscoq-language-server
 wget -O ~/Downloads/jbfont.zip 'https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip'
 unzip ~/Downloads/jbfont.zip -d ~/.local/share/
 rm ~/Downloads/jbfont.zip
+
+# install japaneese input
+sudo pacman -S fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-qt fcitx5-im
+mkdir -p ~/.config/environment.d
+echo "GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx" > ~/.config/environment.d/fcitx5.conf
+mkdir -p ~/.config/autostart
+cp /etc/xdg/autostart/org.fcitx.Fcitx5.desktop ~/.config/autostart/
+fcitx5-configtool # add mosc input
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 python "$SCRIPT_DIR/dotfiles.py" local-backup

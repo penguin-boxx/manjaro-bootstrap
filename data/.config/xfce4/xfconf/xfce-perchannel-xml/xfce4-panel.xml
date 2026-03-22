@@ -57,6 +57,8 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="Fcitx"/>
+        <value type="string" value="app.py"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="redshift"/>
         <value type="string" value="steam"/>
@@ -94,6 +96,8 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="nekoray.desktop"/>
+        <value type="string" value="com.github.dynobo.normcap.desktop"/>
         <value type="string" value="org.manjaro.pamac.manager.desktop"/>
         <value type="string" value="org.kde.dolphin.desktop"/>
         <value type="string" value="zen.desktop"/>
@@ -102,8 +106,6 @@
         <value type="string" value="discord.desktop"/>
         <value type="string" value="obsidian.desktop"/>
         <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="nekoray.desktop"/>
-        <value type="string" value="chromium.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

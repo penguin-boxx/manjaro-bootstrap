@@ -25,7 +25,13 @@ sudo pacman -S \
     texstudio texlive texlive-lang texlive-bibtexextra biber \
     steam
 
-pamac install zoom code-marketplace nekoray-bin koka-bin swift-bin etcher-bin python-pympress ghcup-hs-bin normcap
+pamac install zen-browser zoom code-marketplace code-features nekoray-bin koka-bin swift-bin etcher-bin python-pympress ghcup-hs-bin normcap
+
+# make zen default browser
+xdg-settings set default-web-browser zen-browser.desktop
+xdg-mime default zen-browser.desktop x-scheme-handler/http
+xdg-mime default zen-browser.desktop x-scheme-handler/https
+xdg-mime default zen-browser.desktop text/html
 
 # change bash to zsh
 chsh -s $(which zsh)

@@ -12,4 +12,5 @@ ms-vscode.cmake-tools
 ms-vscode.cpp-devtools
 ms-vscode.makefile-tools
 rocq-prover.vsrocq
+tomoki1207.pdf
 yzhang.markdown-all-in-one

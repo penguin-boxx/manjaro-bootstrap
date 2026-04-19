@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "haskell.manageHLS": "GHCup",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "workbench.secondarySideBar.showLabels": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "[haskell]": {"editor.tabSize": 2},
+    "[coq]": {"editor.tabSize": 2},
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "terminal.integrated.scrollback": 100000,
+    "files.trimTrailingWhitespace": true,
+    "editor.minimap.showSlider": "always",
+    "window.customTitleBarVisibility": "never",
+    "http.proxyAuthorization": null,
+    "editor.minimap.enabled": false
+}

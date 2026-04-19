@@ -15,6 +15,7 @@ dotfiles = [
     '.gitconfig',
     '.zshrc',
     '.config/Code - OSS/User/settings.json',
+    '.config/Code/User/settings.json',
     '.code_extensions.txt',
     os.path.join(XFCE, 'xfce4-keyboard-shortcuts.xml'),
     os.path.join(XFCE, 'xfce4-terminal.xml'),

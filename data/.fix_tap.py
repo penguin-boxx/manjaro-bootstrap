@@ -18,6 +18,7 @@ def main():
     for id in ids:
         props = run('xinput', 'list-props', id)
         for prop in props:
+            print(prop)
             if 'Tapping Enabled (' in prop:
                 prop_id = find(prop.split(), lambda x: x.startswith('(') and x.endswith(':'))[1:][:-2]
                 print(f'Fixing ({id}, {prop_id})')

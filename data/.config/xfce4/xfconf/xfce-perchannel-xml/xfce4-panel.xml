@@ -95,11 +95,11 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="nekoray.desktop"/>
         <value type="string" value="discord.desktop"/>
         <value type="string" value="xfce4-screenshooter.desktop"/>
         <value type="string" value="obsidian.desktop"/>
         <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="nekoray.desktop"/>
         <value type="string" value="zen.desktop"/>
         <value type="string" value="org.gnome.baobab.desktop"/>
         <value type="string" value="redshift-gtk.desktop"/>

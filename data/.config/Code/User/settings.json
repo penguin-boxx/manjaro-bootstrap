@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Light Modern",
     "haskell.manageHLS": "GHCup",
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
@@ -20,5 +20,21 @@
     "window.customTitleBarVisibility": "never",
     "http.proxyAuthorization": null,
     "editor.minimap.enabled": false,
-    "chat.agent.maxRequests": 100
+    "chat.agent.maxRequests": 100,
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com/microsoft/vscode/wiki/*": true,
+        "https://kotlinlang.org/docs/home.html": true,
+        "https://kotlinlang.org/docs": true,
+        "https://kotlinlang.org": true,
+        "https://github.com/jetbrains/kotlin": true,
+        "https://github.com/jetbrains": true,
+        "https://github.com": true,
+        "https://docs.oracle.com": {
+            "approveRequest": true,
+            "approveResponse": false
+        }
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "editor.fontSize": 13
 }

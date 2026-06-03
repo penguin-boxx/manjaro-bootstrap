@@ -85,7 +85,7 @@
     <property name="plugin-8" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="/usr/share/icons/whiskermenu-manjaro.svg"/>
       <property name="menu-width" type="int" value="364"/>
-      <property name="menu-height" type="int" value="513"/>
+      <property name="menu-height" type="int" value="501"/>
       <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
       <property name="show-command-switchuser" type="bool" value="true"/>
       <property name="favorites" type="array">
@@ -95,16 +95,16 @@
         <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce4-screenshooter.desktop"/>
-        <value type="string" value="zen.desktop"/>
-        <value type="string" value="anki.desktop"/>
-        <value type="string" value="discord.desktop"/>
         <value type="string" value="nekoray.desktop"/>
-        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="chromium.desktop"/>
         <value type="string" value="jetbrains-idea-ce-d8de17b6-e695-4fbf-941e-58a9cff4337c.desktop"/>
-        <value type="string" value="org.gnome.baobab.desktop"/>
-        <value type="string" value="redshift-gtk.desktop"/>
+        <value type="string" value="obsidian.desktop"/>
+        <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="org.keepassxc.KeePassXC.desktop"/>
+        <value type="string" value="zen.desktop"/>
+        <value type="string" value="xfce4-screenshooter.desktop"/>
+        <value type="string" value="nm-connection-editor.desktop"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="clock"/>

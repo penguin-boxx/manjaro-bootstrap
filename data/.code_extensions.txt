@@ -1,5 +1,4 @@
 eamodio.gitlens
-github.copilot-chat
 haskell.haskell
 hoovercj.haskell-linter
 justusadam.language-haskell

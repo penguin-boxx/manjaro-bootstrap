@@ -1,7 +1,11 @@
+anthropic.claude-code
 eamodio.gitlens
 haskell.haskell
+haskell.language-haskell
 hoovercj.haskell-linter
+james-yu.latex-workshop
 justusadam.language-haskell
+llvm-vs-code-extensions.vscode-clangd
 mathematic.vscode-latex
 ms-python.debugpy
 ms-python.python
@@ -10,6 +14,7 @@ ms-python.vscode-python-envs
 ms-vscode.cmake-tools
 ms-vscode.cpp-devtools
 ms-vscode.makefile-tools
+opencj.cangjie
 rocq-prover.vsrocq
 tomoki1207.pdf
 yzhang.markdown-all-in-one

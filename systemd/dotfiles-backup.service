@@ -1,0 +1,7 @@
+[Unit]
+Description=Backup dotfiles to git
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python %h/manjaro-bootstrap/dotfiles.py backup

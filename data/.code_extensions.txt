@@ -14,7 +14,10 @@ ms-python.vscode-python-envs
 ms-vscode.cmake-tools
 ms-vscode.cpp-devtools
 ms-vscode.makefile-tools
+ms-vscode.vscode-chat-customizations-evaluations
 opencj.cangjie
+quarto.quarto
 rocq-prover.vsrocq
+sumneko.lua
 tomoki1207.pdf
 yzhang.markdown-all-in-one

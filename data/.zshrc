@@ -195,3 +195,5 @@ JDK_17=/usr/lib/jvm/java-17-openjdk-amd64
 nvm use 20 &> /dev/null
 
 python ~/.fix_tap.py &> /dev/null
+
+[ -f "/home/penguin/.ghcup/env" ] && . "/home/penguin/.ghcup/env" # ghcup-env

@@ -31,10 +31,26 @@
             "approveRequest": true,
             "approveResponse": false
         },
-        "https://ia.spcras.ru": true
+        "https://ia.spcras.ru": true,
+        "https://doi.org": true,
+        "https://raw.githubusercontent.com/penguin-boxx": true,
+        "https://docs.scala-lang.org": true,
+        "https://doc.rust-lang.org": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://go.dev": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://koka-lang.github.io": {
+            "approveRequest": false,
+            "approveResponse": true
+        },
+        "https://zenodo.org": true
     },
     "chat.viewSessions.orientation": "stacked",
-    "editor.fontSize": 11,
+    "editor.fontSize": 12,
     "diffEditor.maxComputationTime": 0,
     "chat.tools.terminal.autoApprove": {
         "pdflatex": true,
@@ -53,5 +69,14 @@
     "latex-workshop.latex.autoBuild.run": "never",
     "[latex]": {
         "editor.defaultFormatter": "mathematic.vscode-latex"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "latex": false
     }
 }
